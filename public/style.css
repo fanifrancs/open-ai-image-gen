@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+.bg-dark{
+    font-family: 'Comic Neue', cursive;
+}
+
+.navbar-brand{
+    font-family: 'Fredoka One', cursive;
+    letter-spacing: 2px;
+}
+
+input, button{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+#qr-display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+        
+.btn-grad {
+    background-image: linear-gradient(to right, #cb2d3e 0%, #ef473a  51%, #cb2d3e  100%);
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px
+}
+
+.btn-grad:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
