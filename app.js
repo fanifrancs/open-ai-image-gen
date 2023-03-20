@@ -26,7 +26,7 @@ app.get('/', (req, res) => {
     res.render('index');
 })
 
-app.post('/generateimage', async (req, res) => {
+app.post('/', async (req, res) => {
     const { prompt } = req.body;
     const result = {};
     try {
