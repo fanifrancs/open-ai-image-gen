@@ -4,7 +4,8 @@
   "description": "A Node.js app that uses OpenAI's Dall-E models to generate images.",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "author": "Francis Faniku",
   "license": "MIT",
